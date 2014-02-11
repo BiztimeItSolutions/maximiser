@@ -1,0 +1,42 @@
+SQL3109N  The utility is beginning to load data from file 
+"C:\Users\Administrator\Desktop\aa.csv".
+
+SQL3110N  The utility has completed processing.  "9" rows were read from the 
+input file.
+
+SQL3221W  ...Begin COMMIT WORK. Input Record Count = "9".
+
+SQL3222W  ...COMMIT of any database changes was successful.
+
+SQL3149N  "9" rows were processed from the input file.  "9" rows were 
+successfully inserted into the table.  "0" rows were rejected.
+
+SQL3109N  The utility is beginning to load data from file "C:\work\Web 
+Project\WebContent\Emp.csv".
+
+SQL3110N  The utility has completed processing.  "8" rows were read from the 
+input file.
+
+SQL3221W  ...Begin COMMIT WORK. Input Record Count = "8".
+
+SQL3222W  ...COMMIT of any database changes was successful.
+
+SQL3149N  "8" rows were processed from the input file.  "8" rows were 
+successfully inserted into the table.  "0" rows were rejected.
+
+SQL3109N  The utility is beginning to load data from file "C:\Emp.csv".
+
+SQL3030C  An I/O error (reason = "sqlofopn -2029060074") occurred while 
+opening the input file.
+
+SQL3110N  The utility has completed processing.  "0" rows were read from the 
+input file.
+
+SQL3109N  The utility is beginning to load data from file "C:\Emp.csv".
+
+SQL3030C  An I/O error (reason = "sqlofopn -2029060074") occurred while 
+opening the input file.
+
+SQL3110N  The utility has completed processing.  "0" rows were read from the 
+input file.
+
