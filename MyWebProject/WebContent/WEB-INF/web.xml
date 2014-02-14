@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1256"?> 
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>MyWebProject</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+		
+	</welcome-file-list>
+	<servlet>
+		<description>
+			This is the description for the sample servlet
+		</description>
+		<display-name>Login</display-name>
+		<icon>
+			<small-icon>icons/small.gif</small-icon>
+			<large-icon>icons/small.gif</large-icon>
+		</icon>
+		<servlet-name>LoginServ</servlet-name>
+		
+		<servlet-class>com.Registration.LoginProcess</servlet-class>
+	</servlet>
+	<servlet-mapping>  
+        <servlet-name>LoginServ</servlet-name>  
+        <url-pattern>/Login</url-pattern>  
+    </servlet-mapping> 
+    
+    <servlet>
+    <servlet-name>SubmitArticle</servlet-name>
+    <servlet-class>com.SubmitArticle.SubmitArticle</servlet-class>
+    </servlet>
+    <servlet-mapping>  
+        <servlet-name>SubmitArticle</servlet-name>  
+        <url-pattern>/submit</url-pattern>  
+    </servlet-mapping> 
+    
+    <servlet>
+    <servlet-name>FetchCities</servlet-name>
+    <servlet-class>com.Miscpack.Fetchcities</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>FetchCities</servlet-name>
+    <url-pattern>/getCitylist.my</url-pattern>
+    </servlet-mapping>
+    
+    
+       <servlet>
+    <servlet-name>FetchArticleComments</servlet-name>
+    <servlet-class>com.Miscpack.FetchArticleComments</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>FetchArticleComments</servlet-name>
+    <url-pattern>/articleComments.my</url-pattern>
+    </servlet-mapping>
+	
+	
+	 <servlet>
+    <servlet-name>Postcomment</servlet-name>
+    <servlet-class>com.SubmitArticle.Postcomment</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>Postcomment</servlet-name>
+    <url-pattern>/postComment</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+</web-app>
